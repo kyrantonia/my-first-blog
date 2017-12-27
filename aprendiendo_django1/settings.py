@@ -25,7 +25,7 @@ SECRET_KEY = 'lqv5#8c_&o^^0_p+dh7mj!@+rme@7m$*=e2!7dx@%pa1p9skcs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://kyrantonia.pythonanywhere.com/']
+ALLOWED_HOSTS = ['kyrantonia.pythonanywhere.com/']
 
 
 # Application definition
