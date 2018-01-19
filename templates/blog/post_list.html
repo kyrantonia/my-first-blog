@@ -5,10 +5,15 @@
     <title>Aprendiendo Django</title>
 </head>
 <body>
-    <div><a href="">Django Blog</a></div>
+<div>
+    <h1><a href="/">Aprendiendo Django</a></h1>
+</div>
+{% for post in posts %}
     <div>
-                <p>published: 14.06.2014, 12:14</p>
-    <p>Hola!</p>
-    <p>Funciona!</p>
+        <p>Publicado:{{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a> </h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
 </body>
 </html>
